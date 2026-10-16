@@ -53,15 +53,7 @@ The report-frequency contribution is capped at 10 similar reports, while the pen
 
 The individual factors are normalized before the weighted score is calculated.
 
-### 3. GNIDA Jurisdiction Verification
-
-The system checks the reported coordinates against the configured GNIDA boundary data.
-
-- Locations inside the configured boundary proceed to routing.
-- Locations outside the boundary are explicitly flagged.
-- Unavailable or inconclusive jurisdiction information can be sent for manual review.
-
-### 4. RAG-Based Department Routing
+### 3. RAG-Based Department Routing
 
 The routing module uses Retrieval-Augmented Generation-style retrieval to find relevant information from a curated GNIDA knowledge corpus.
 
@@ -73,7 +65,7 @@ Technologies include:
 
 The retrieved information supports the department and escalation decision. The system generates a complaint draft for human review rather than automatically submitting it to a live government portal.
 
-### 5. Road Repair Verification
+### 4. Road Repair Verification
 
 The verification module compares the original road image with an after-resolution image.
 
