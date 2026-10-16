@@ -1,4 +1,4 @@
-# CivicSense AI 🚧
+# CivicSense AI 
 ### An Intelligent Pipeline for Automated Road Damage Detection, Prioritization, Routing, and Resolution Verification
 
 CivicSense AI is an AI-powered civic technology project designed to detect road damage from images, prioritize complaints based on urgency, identify the responsible civic department, and verify whether reported road damage has been resolved.
@@ -9,7 +9,7 @@ Road damage such as potholes and cracks can create safety risks and disrupt tran
 
 CivicSense AI aims to support this process through automated road-damage analysis, urgency scoring, jurisdiction checking, knowledge-based routing, and visual resolution verification.
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Detect potholes and different types of road cracks from road images.
 - Calculate a weighted urgency score for each complaint.
@@ -19,7 +19,7 @@ CivicSense AI aims to support this process through automated road-damage analysi
 - Compare before-and-after images to assist resolution verification.
 - Provide a dashboard for citizens and administrators to review complaint information.
 
-## ✨ Key Features
+##  Key Features
 
 ### 1. Road Damage Detection
 Uses **YOLOv8**, a CNN-based deep-learning object detector, to identify road damage in uploaded images.
@@ -148,7 +148,7 @@ Model training is performed separately from normal application inference.
 | Geospatial boundary data | GeoJSON |
 | Model training hardware | NVIDIA RTX 3050 Laptop GPU, 4 GB VRAM |
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 CivicSense-AI/
@@ -190,7 +190,7 @@ CivicSense-AI/
 
 Generated training outputs, datasets, and other local files may exist outside this abbreviated structure.
 
-## ⚙️ Installation and Setup
+##  Installation and Setup
 
 ### Prerequisites
 
