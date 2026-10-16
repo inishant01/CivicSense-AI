@@ -106,9 +106,6 @@ Citizen / Admin Dashboard
     Priority Scoring
           |
           v
- GNIDA Jurisdiction Check
-          |
-          v
   RAG-Based Department Routing
    Sentence Transformers + FAISS
           |
