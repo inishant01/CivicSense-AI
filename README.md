@@ -3,7 +3,7 @@
 
 CivicSense AI is an AI-powered civic technology project designed to detect road damage from images, prioritize complaints based on urgency, identify the responsible civic department, and verify whether reported road damage has been resolved.
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Road damage such as potholes and cracks can create safety risks and disrupt transportation. Manual complaint handling may lead to inconsistent prioritization, incorrect department routing, delayed responses, and difficulties verifying completed repairs.
 
@@ -85,7 +85,7 @@ It uses:
 
 The system reports a verification outcome or flags inconclusive cases for manual review. SSIM alone is not treated as proof that a repair is complete.
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```text
 Citizen / Admin Dashboard
@@ -130,7 +130,7 @@ Citizen / Admin Dashboard
 
 Model training is performed separately from normal application inference.
 
-## 🧰 Technology Stack
+##  Technology Stack
 
 | Component | Technology |
 |---|---|
